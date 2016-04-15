@@ -5,10 +5,10 @@
             <a href="{{ URL::to('/dashboard') }}"><i class="fa fa-fw fa-home"></i> Dashboard</a>
         </li>
         <li>
-            <a href="{{ URL::to('/pendidikan') }}"><i class="fa fa-fw fa-edit"></i> Riwayah Sekolah</a>
+            <a href="{{ URL::to('/pendidikan') }}"><i class="fa fa-fw fa-edit"></i> Riwayat Sekolah</a>
         </li>
         <li>
-            <a href="{{ URL::to('/pekerjaan') }}"><i class="fa fa-fw fa-edit"></i> Riwayah Pekerjaan</a>
+            <a href="{{ URL::to('/pekerjaan') }}"><i class="fa fa-fw fa-edit"></i> Riwayat Pekerjaan</a>
         </li>
         <li>
             <a href="{{ URL::to('/materi') }}"><i class="fa fa-fw fa-edit"></i> Content Materi</a>
