@@ -16,19 +16,19 @@
 				{!! csrf_field() !!}
 				<div class="form-group">
 				{{ Form::label('judul', 'Judul') }}
-				{{ Form::text('judul', null, array('class' => 'form-control', 'placeholder' => 'Masukan Posisi Jabatan')) }}
+				{{ Form::text('judul', null, array('class' => 'form-control', 'placeholder' => 'Masukan judul materi')) }}
 				</div>
 				<div class="form-group">
 				{{ Form::label('keterangan', 'Keterangan') }}
-				{{ Form::text('keterangan', null, array('class' => 'form-control', 'placeholder' => 'Masukan nama perusahaan atau instansi')) }}
+				{{ Form::text('keterangan', null, array('class' => 'form-control', 'placeholder' => 'Masukan keterangan atau deskripsi')) }}
 				</div>
 				<div class="form-group">
 				{{ Form::label('gambar', 'gambar') }}
-				{{ Form::text('gambar', null, array('class' => 'form-control', 'placeholder' => 'Masukan tahun masuk')) }}
+				{{ Form::text('gambar', null, array('class' => 'form-control', 'placeholder' => 'Upload Gambar')) }}
 				</div>
 				<div class="form-group">
                 {{ Form::label('isimateri', 'Materi') }}
-                {{ Form::textarea('isimateri', null, array('class' => 'form-control', 'placeholder' => 'Masukan tugas dan tanggung jawa', 'rows' => '7')) }}
+                {{ Form::textarea('isimateri', null, array('class' => 'form-control', 'placeholder' => 'Masukan isi materi', 'rows' => '7')) }}
                 </div>
 				<div class="form-group kanan">
 				{{ Form::submit('SIMPAN', array('class' => 'btn btn-success', 'id' => 'simpan')) }}
